@@ -122,7 +122,7 @@ update :: proc(cur_state : ^State) -> Request{
    //TODO(Fausto): refactor entities to be SOA instead of AOS
    cur_request := Request.None;
 
-  cur_state.entities[0].color = GREEN; 
+  cur_state.entities[0].color = RED; 
    
    cur_state.entities[0].vel = ZERO_VEC; 
    //Process player input

@@ -1,1 +1,1 @@
-odin build . -build-mode:dll -debug
+odin build ve.odin -file -build-mode:dll -debug
